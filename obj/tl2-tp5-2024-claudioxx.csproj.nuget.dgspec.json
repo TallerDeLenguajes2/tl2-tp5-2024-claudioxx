@@ -1,32 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\claud\\OneDrive\\Escritorio\\TP5\\tl2-tp5-2024-claudioxx\\tl2-tp5-2024-claudioxx.csproj": {}
+    "C:\\Users\\Claudio\\Desktop\\TL2-2024\\TP5\\tl2-tp5-2024-claudioxx\\tl2-tp5-2024-claudioxx.csproj": {}
   },
   "projects": {
-    "C:\\Users\\claud\\OneDrive\\Escritorio\\TP5\\tl2-tp5-2024-claudioxx\\tl2-tp5-2024-claudioxx.csproj": {
+    "C:\\Users\\Claudio\\Desktop\\TL2-2024\\TP5\\tl2-tp5-2024-claudioxx\\tl2-tp5-2024-claudioxx.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\claud\\OneDrive\\Escritorio\\TP5\\tl2-tp5-2024-claudioxx\\tl2-tp5-2024-claudioxx.csproj",
+        "projectUniqueName": "C:\\Users\\Claudio\\Desktop\\TL2-2024\\TP5\\tl2-tp5-2024-claudioxx\\tl2-tp5-2024-claudioxx.csproj",
         "projectName": "tl2-tp5-2024-claudioxx",
-        "projectPath": "C:\\Users\\claud\\OneDrive\\Escritorio\\TP5\\tl2-tp5-2024-claudioxx\\tl2-tp5-2024-claudioxx.csproj",
-        "packagesPath": "C:\\Users\\claud\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\claud\\OneDrive\\Escritorio\\TP5\\tl2-tp5-2024-claudioxx\\obj\\",
+        "projectPath": "C:\\Users\\Claudio\\Desktop\\TL2-2024\\TP5\\tl2-tp5-2024-claudioxx\\tl2-tp5-2024-claudioxx.csproj",
+        "packagesPath": "C:\\Users\\Claudio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Claudio\\Desktop\\TL2-2024\\TP5\\tl2-tp5-2024-claudioxx\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\claud\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Claudio\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -34,11 +32,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.Data.SQLite": {
               "target": "Package",
@@ -68,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -24,7 +24,7 @@ public class WeatherForecastController : ControllerBase
     public IEnumerable<Producto> Get()
     {
         var cadena = "Data Source=db/Tienda.db";
-        List<Producto> prodcutos = new List<Producto>();
+        List<Producto> productos = new List<Producto>();
         using (var sqlitecon = new SqliteConnection(cadena))
         {
             sqlitecon.Open();
@@ -37,10 +37,10 @@ public class WeatherForecastController : ControllerBase
                 string nombre = reader["Descripcion"].ToString();
                 int precio = Convert.ToInt32(reader["Precio"]);
                 Producto unProducto = new Producto(id,nombre,precio);
-                prodcutos.Add(unProducto);
+                productos.Add(unProducto);
             }
             sqlitecon.Close();
         }
-        return prodcutos;
+        return productos;
     }
 }
